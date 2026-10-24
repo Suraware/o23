@@ -1,0 +1,28 @@
+# --- Private / local-only ---
+# Transaction journal written by the Obsidian MCP tools (local recovery data)
+.obsidian-mcp/
+
+# Obsidian trash
+.trash/
+
+# Per-machine UI layout (tabs, open panes, scroll positions)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian runtime cache
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# --- Scratch files ---
+Untitled*.canvas
+Untitled*.base
+Untitled*.md
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
